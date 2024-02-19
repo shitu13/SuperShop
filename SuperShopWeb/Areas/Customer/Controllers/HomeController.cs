@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using SuperShop.Models;
 using System.Diagnostics;
 
-namespace SuperShopWeb.Controllers
+namespace SuperShopWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
