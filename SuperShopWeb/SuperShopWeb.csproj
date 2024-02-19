@@ -24,4 +24,8 @@
 	  <ProjectReference Include="..\SuperShop.Utility\SuperShop.Utility.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="wwwroot\lib\bootstrap\dist\" />
+	</ItemGroup>
+
 </Project>
