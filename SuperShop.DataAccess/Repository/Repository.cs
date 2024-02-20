@@ -16,7 +16,7 @@ namespace SuperShop.DataAccess.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
-            this.dbSet = _db.Set<T>();      
+            this.dbSet = _db.Set<T>();
             //_db.Categories =dbSet
         }
         public void Add(T entity)
@@ -48,6 +48,6 @@ namespace SuperShop.DataAccess.Repository
             dbSet.RemoveRange(entity);
         }
 
-        
+
     }
 }
